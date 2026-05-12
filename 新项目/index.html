@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>萌宠消消乐</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="game-container">
+    <!-- 顶部信息栏 -->
+    <header class="game-header">
+      <h1 class="game-title">萌宠消消乐</h1>
+      <div class="game-info">
+        <div class="info-box">
+          <span class="info-label">得分</span>
+          <span class="info-value" id="score">0</span>
+        </div>
+        <div class="info-box combo-box" id="comboBox">
+          <span class="info-label">连击</span>
+          <span class="info-value" id="combo">x1</span>
+        </div>
+        <div class="info-box">
+          <span class="info-label">步数</span>
+          <span class="info-value" id="moves">30</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- 游戏棋盘 -->
+    <div class="board-wrapper">
+      <div class="board" id="board"></div>
+    </div>
+
+    <!-- 底部按钮 -->
+    <div class="game-actions">
+      <button class="btn-action" id="btnHint">💡 提示</button>
+      <button class="btn-action primary" id="btnRestart">🔄 重新开始</button>
+    </div>
+  </div>
+
+  <!-- 游戏结束弹窗 -->
+  <div class="overlay" id="overlay">
+    <div class="modal" id="modal">
+      <h2 id="modalTitle">游戏结束</h2>
+      <p id="modalScore">最终得分：0</p>
+      <button class="btn-action primary" id="btnPlayAgain">再来一局</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

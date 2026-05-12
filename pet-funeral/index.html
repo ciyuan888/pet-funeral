@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>归途 · 宠物殡葬服务</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- 导航栏 -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">归途</a>
+      <ul class="nav-links">
+        <li><a href="#services">服务项目</a></li>
+        <li><a href="#about">关于我们</a></li>
+        <li><a href="#trust">信任承诺</a></li>
+        <li><a href="#pricing">价格方案</a></li>
+        <li><a href="#memorial">纪念品</a></li>
+        <li><a href="#contact">联系我们</a></li>
+      </ul>
+      <button class="menu-btn" id="menuBtn" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero 首屏 -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <p class="hero-sub">宠物殡葬 · 温暖最后一程</p>
+      <h1 class="hero-title">让告别<br>温暖如初</h1>
+      <p class="hero-desc">我们深知每一个毛孩子，都是生命中无可替代的家人。<br>以最温柔的方式，护送它们走完最后一段路。</p>
+      <a href="#services" class="btn-primary">了解服务</a>
+    </div>
+    <div class="hero-bg"></div>
+  </section>
+
+  <!-- 服务流程 -->
+  <section class="section" id="services">
+    <div class="container">
+      <h2 class="section-title">服务流程</h2>
+      <p class="section-sub">全程陪伴，每一步都用心对待</p>
+      <div class="services-grid">
+        <div class="service-card" data-animate>
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="20" r="6" stroke="currentColor" stroke-width="2"/><path d="M16 56c0-8 8-16 16-16s16 8 16 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M44 24l8 8-4 12h-8l-4-12 8-8z" stroke="currentColor" stroke-width="2"/><circle cx="44" cy="18" r="3" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>上门仪容整理</h3>
+          <p>专业团队上门为宠物梳理毛发、清洁身体、整理遗容，让它体面地走完最后一段路。</p>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none"><path d="M16 48l8-32h16l8 32" stroke="currentColor" stroke-width="2"/><path d="M20 48v8a4 4 0 004 4h16a4 4 0 004-4v-8" stroke="currentColor" stroke-width="2"/><circle cx="32" cy="26" r="8" stroke="currentColor" stroke-width="2"/><path d="M28 26c0 2 2 4 4 4s4-2 4-4" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>清洁与告别</h3>
+          <p>用温和的方式为宠物做最后的清洁护理，家属可在安静的告别室中与爱宠做最后的道别。</p>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none"><path d="M32 8C22 8 14 20 14 36s8 20 18 20 18-12 18-20S42 8 32 8z" stroke="currentColor" stroke-width="2"/><path d="M22 40c4 6 16 6 20 0" stroke="currentColor" stroke-width="2"/><path d="M26 34l-6 4M38 34l6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>火化安葬</h3>
+          <p>采用环保单体火化炉，每一只宠物单独火化，确保骨灰纯净，全程可视频观看。</p>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none"><rect x="20" y="28" width="24" height="28" rx="3" stroke="currentColor" stroke-width="2"/><path d="M26 28V20a6 6 0 0112 0v8" stroke="currentColor" stroke-width="2"/><path d="M32 36v12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M26 42h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>骨灰归还</h3>
+          <p>将骨灰装入精心准备的骨灰罐中，亲手交还家属。也可选择定制骨灰纪念饰品，让爱永伴。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关于我们 -->
+  <section class="section section-about" id="about">
+    <div class="container">
+      <div class="about-inner" data-animate>
+        <h2 class="section-title">关于我们</h2>
+        <p class="about-text">
+          每一只宠物都是家人，每一个生命都值得被温柔以待。
+        </p>
+        <p class="about-text">
+          归途成立于 2020 年，是一支由爱宠人士组成的专业宠物殡葬团队。我们相信，告别不仅仅是终点，更是一段珍贵的回忆。从上门接送到骨灰归还，我们全程为家属提供最贴心的陪伴与服务。
+        </p>
+        <p class="about-text">
+          我们承诺：尊重每一个生命，温暖每一次告别。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 信任承诺 -->
+  <section class="section section-trust" id="trust">
+    <div class="container">
+      <h2 class="section-title">为什么选择我们</h2>
+      <p class="section-sub">行业乱象中的一份安心承诺</p>
+      <div class="trust-grid">
+        <div class="trust-card" data-animate>
+          <div class="trust-icon">
+            <svg viewBox="0 0 64 64" fill="none"><rect x="16" y="8" width="32" height="48" rx="4" stroke="currentColor" stroke-width="2"/><path d="M24 20h16M24 28h16M24 36h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="42" cy="44" r="6" stroke="currentColor" stroke-width="2"/><path d="M40 44l1.5 1.5 3-3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>价格透明</h3>
+          <p>所有费用明码标价，拒绝黑箱操作和过度推销。每一项服务收费都清晰列明，让你在悲伤时不被打扰。</p>
+        </div>
+        <div class="trust-card" data-animate>
+          <div class="trust-icon">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="24" stroke="currentColor" stroke-width="2"/><circle cx="32" cy="32" r="10" stroke="currentColor" stroke-width="2"/><path d="M32 8v6M32 50v6M8 32h6M50 32h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>全程可观看</h3>
+          <p>从清洁到火化，每一步都支持家属视频观看。不做暗箱操作，让你放心把爱宠交给我们。</p>
+        </div>
+        <div class="trust-card" data-animate>
+          <div class="trust-icon">
+            <svg viewBox="0 0 64 64" fill="none"><path d="M32 8l24 14v20c0 12-10 18-24 22-14-4-24-10-24-22V22L32 8z" stroke="currentColor" stroke-width="2"/><path d="M26 32l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>单体火化</h3>
+          <p>每一只宠物单独使用一个火化炉，确保骨灰纯净无混杂。这是我们对生命最基本的尊重。</p>
+        </div>
+        <div class="trust-card" data-animate>
+          <div class="trust-icon">
+            <svg viewBox="0 0 64 64" fill="none"><path d="M20 56V28a8 8 0 018-8h8a8 8 0 018 8v28" stroke="currentColor" stroke-width="2"/><path d="M16 56h32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M28 40h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="32" cy="18" r="3" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>善终关怀</h3>
+          <p>从接听电话的第一刻起，到骨灰归还后的周年追思，我们全程陪伴，不只是服务，更是守护。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 价格方案 -->
+  <section class="section" id="pricing">
+    <div class="container">
+      <h2 class="section-title">价格方案</h2>
+      <p class="section-sub">透明定价，无隐形消费</p>
+      <div class="pricing-grid">
+        <div class="pricing-card" data-animate>
+          <div class="pricing-header">
+            <h3>暖心版</h3>
+            <p class="pricing-desc">基础告别服务</p>
+          </div>
+          <div class="pricing-price"><span class="currency">¥</span>1,200<span class="unit">起</span></div>
+          <ul class="pricing-features">
+            <li>上门接送</li>
+            <li>仪容整理与清洁</li>
+            <li>集体火化</li>
+            <li>基础骨灰罐</li>
+          </ul>
+          <a href="#contact" class="btn-outline">咨询预约</a>
+        </div>
+
+        <div class="pricing-card featured" data-animate>
+          <div class="pricing-badge">推荐选择</div>
+          <div class="pricing-header">
+            <h3>归途版</h3>
+            <p class="pricing-desc">尊享个体服务</p>
+          </div>
+          <div class="pricing-price"><span class="currency">¥</span>2,800<span class="unit">起</span></div>
+          <ul class="pricing-features">
+            <li>上门接送</li>
+            <li>仪容整理与清洁</li>
+            <li>单体火化（可观看）</li>
+            <li>精品骨灰罐</li>
+            <li>告别仪式</li>
+            <li>爪印纪念卡</li>
+          </ul>
+          <a href="#contact" class="btn-primary">咨询预约</a>
+        </div>
+
+        <div class="pricing-card" data-animate>
+          <div class="pricing-header">
+            <h3>永恒版</h3>
+            <p class="pricing-desc">永恒纪念珍藏</p>
+          </div>
+          <div class="pricing-price"><span class="currency">¥</span>4,800<span class="unit">起</span></div>
+          <ul class="pricing-features">
+            <li>归途版全部服务</li>
+            <li>定制骨灰纪念品</li>
+            <li>专属纪念相册</li>
+            <li>线上追思页面</li>
+            <li>一周年追思提醒</li>
+          </ul>
+          <a href="#contact" class="btn-outline">咨询预约</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 纪念品定制 -->
+  <section class="section section-memorial" id="memorial">
+    <div class="container">
+      <h2 class="section-title">纪念品定制</h2>
+      <p class="section-sub">让思念有形状，让陪伴不终止</p>
+      <div class="memorial-grid">
+        <div class="memorial-card" data-animate>
+          <div class="memorial-img">
+            <svg viewBox="0 0 200 160" fill="none"><rect width="200" height="160" rx="12" fill="#EDE8E2"/><circle cx="100" cy="65" r="22" stroke="#C4A8A0" stroke-width="2"/><path d="M76 105c0-8 6-14 14-14h20c8 0 14 6 14 14" stroke="#C4A8A0" stroke-width="2"/><circle cx="94" cy="60" r="2" fill="#C4A8A0"/><circle cx="106" cy="60" r="2" fill="#C4A8A0"/><path d="M96 70c2 2 6 2 8 0" stroke="#C4A8A0" stroke-width="1.5"/><text x="100" y="145" text-anchor="middle" fill="#A3B5A6" font-size="12">生命晶石 · 项链款</text></svg>
+          </div>
+          <h3>生命晶石</h3>
+          <p>以爱宠骨灰高温结晶制成，可镶嵌为项链、戒指或手链。随身佩戴，让陪伴以另一种形式延续。</p>
+          <span class="memorial-price">¥386 起</span>
+        </div>
+        <div class="memorial-card" data-animate>
+          <div class="memorial-img">
+            <svg viewBox="0 0 200 160" fill="none"><rect width="200" height="160" rx="12" fill="#EDE8E2"/><circle cx="100" cy="70" r="28" stroke="#C4A8A0" stroke-width="2"/><circle cx="90" cy="62" r="3" fill="#C4A8A0"/><circle cx="110" cy="62" r="3" fill="#C4A8A0"/><path d="M92 78c2 2 4 2 8 2s6 0 8-2" stroke="#C4A8A0" stroke-width="1.5"/><path d="M94 42v4M106 42v4" stroke="#C4A8A0" stroke-width="1.5"/><circle cx="84" cy="54" r="8" stroke="#C4A8A0" stroke-width="1.5"/><circle cx="116" cy="54" r="8" stroke="#C4A8A0" stroke-width="1.5"/><text x="100" y="145" text-anchor="middle" fill="#A3B5A6" font-size="12">爪印纪念卡 · 毛发留存</text></svg>
+          </div>
+          <h3>爪印纪念卡</h3>
+          <p>采集爱宠爪印与一缕毛发，精美封存于定制纪念卡中。触手可及的温暖回忆。</p>
+          <span class="memorial-price">¥199 起</span>
+        </div>
+        <div class="memorial-card" data-animate>
+          <div class="memorial-img">
+            <svg viewBox="0 0 200 160" fill="none"><rect width="200" height="160" rx="12" fill="#EDE8E2"/><path d="M70 55h60a6 6 0 016 6v42a6 6 0 01-6 6H70a6 6 0 01-6-6V61a6 6 0 016-6z" stroke="#C4A8A0" stroke-width="2"/><path d="M82 55V45a18 18 0 0136 0v10" stroke="#C4A8A0" stroke-width="2"/><circle cx="92" cy="45" r="2" fill="#C4A8A0"/><circle cx="100" cy="45" r="2" fill="#C4A8A0"/><path d="M92 85h16" stroke="#C4A8A0" stroke-width="1.5"/><text x="100" y="145" text-anchor="middle" fill="#A3B5A6" font-size="12">定制骨灰罐 · 专属铭刻</text></svg>
+          </div>
+          <h3>定制骨灰罐</h3>
+          <p>多种材质可选，支持激光铭刻名字与日期。让它有一个永久的、体面的归宿。</p>
+          <span class="memorial-price">¥200 起</span>
+        </div>
+        <div class="memorial-card" data-animate>
+          <div class="memorial-img">
+            <svg viewBox="0 0 200 160" fill="none"><rect width="200" height="160" rx="12" fill="#EDE8E2"/><rect x="55" y="35" width="90" height="65" rx="4" stroke="#C4A8A0" stroke-width="2"/><rect x="62" y="42" width="76" height="40" rx="2" stroke="#C4A8A0" stroke-width="1.5"/><circle cx="100" cy="60" r="12" stroke="#C4A8A0" stroke-width="1.5"/><path d="M96 59l3 3 5-5" stroke="#C4A8A0" stroke-width="1.5" stroke-linecap="round"/><text x="100" y="145" text-anchor="middle" fill="#A3B5A6" font-size="12">纪念相册 · 追思页面</text></svg>
+          </div>
+          <h3>纪念相册</h3>
+          <p>精选照片制作定制相册，附赠专属线上追思页面，可通过二维码分享给亲友共同缅怀。</p>
+          <span class="memorial-price">¥288 起</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 常见问题 -->
+  <section class="section" id="faq">
+    <div class="container">
+      <h2 class="section-title">常见问题</h2>
+      <p class="section-sub">您关心的问题，我们坦诚回答</p>
+      <div class="faq-list" data-animate>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>宠物去世后，我应该第一步做什么？</span>
+            <span class="faq-icon"></span>
+          </button>
+          <div class="faq-answer"><p>首先请不要慌张。您可以直接拨打我们的 24 小时热线 138-0000-0000，我们会安排专人上门接宠，并在电话中指导您做好宠物的基本安置。整个过程中您无需做任何准备，我们会带上所有需要的物品。</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>费用是固定的吗？会不会后续加价？</span>
+            <span class="faq-icon"></span>
+          </button>
+          <div class="faq-answer"><p>所有价格均为明码标价，您在网站上看到的价格就是最终收费。我们承诺：绝不临时加价、不强制推销附加服务。如果您需要额外的纪念品定制，会在征得您同意后单独列明费用。</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>单体火化如何保证骨灰的纯净？</span>
+            <span class="faq-icon"></span>
+          </button>
+          <div class="faq-answer"><p>我们每只宠物使用独立的火化炉，一次仅火化一只宠物。火化前后都会对炉膛进行清理，并且支持家属全程视频观看，您无需担心混淆。</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>从上门到骨灰归还，整个过程需要多久？</span>
+            <span class="faq-icon"></span>
+          </button>
+          <div class="faq-answer"><p>一般情况下，从上门接宠到骨灰归还，全程约 4-6 小时。如果选择纪念品定制（如生命晶石），需要额外 3-5 个工作日制作。</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>你们的团队有相关资质吗？</span>
+            <span class="faq-icon"></span>
+          </button>
+          <div class="faq-answer"><p>我们的团队持有宠物殡葬师资格认证，每年接受专业培训。团队成员均为爱宠人士，我们理解您此刻的心情，也会以最专业、最温柔的方式服务每一位家属和每一只宠物。</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系方式 -->
+  <section class="section section-contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">联系我们</h2>
+      <p class="section-sub">我们24小时在线，为您和爱宠提供及时帮助</p>
+      <div class="contact-grid" data-animate>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          </div>
+          <h3>电话</h3>
+          <p>138-0000-0000</p>
+          <p class="contact-sub">24小时服务热线</p>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3>地址</h3>
+          <p>XX市XX区XX路XX号</p>
+          <p class="contact-sub">欢迎提前预约参观</p>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3>服务时间</h3>
+          <p>全年无休</p>
+          <p class="contact-sub">7×24小时随时响应</p>
+        </div>
+      </div>
+
+      <div class="map-placeholder" data-animate>
+        <div class="map-inner">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>地图加载区域</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-logo">归途</p>
+      <p class="footer-slogan">温暖每一场告别，守护每一份回忆</p>
+      <p class="footer-copy">&copy; 2024 归途宠物殡葬服务</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
